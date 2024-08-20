@@ -1,0 +1,28 @@
+body {
+    background-color: #181818;
+    margin: 0;
+}
+
+.header_main {
+    display: flex;
+    justify-content: center;
+}
+
+.header_nav {
+    margin-left: 116px;
+    margin-right: 142px;
+    margin-top: 37px;
+}
+
+.header_main img {
+    margin-top: 30px;
+}
+
+.header_nav a {
+    padding-top: 10px;
+    margin-right: 31px;
+    color: white;
+    text-decoration: none;
+    font-family: RobotoM;
+    font-size: 16px;
+}
