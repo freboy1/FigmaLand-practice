@@ -6,6 +6,8 @@ body {
 .header_main {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 120px;
 }
 
 .header_nav {
@@ -25,4 +27,41 @@ body {
     text-decoration: none;
     font-family: RobotoM;
     font-size: 16px;
+}
+
+.header_text {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main_text {
+    font-size: 80px;
+    color: white;
+    font-family: RobotoB;
+    width: 60%;
+    padding: 10px;
+}
+
+.description_text {
+    margin-top: 17px;
+    color: white;
+    font-size: 20px;
+    font-family: RobotoM;
+    width: 50%;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+}
+
+.screens {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
 }

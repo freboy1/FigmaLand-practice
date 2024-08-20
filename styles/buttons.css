@@ -10,3 +10,23 @@
     font-family: RobotoB;
     margin-top: 33px;
 }
+
+.first:hover {
+    border-color: gray;
+    color: gray;
+}
+.second {
+    width: 140px;
+    height: 52px;
+    background-color: #4452FE;
+    color: white;
+    font-size: 16px;
+    font-family: RobotoB;
+    margin-top: 33px;
+    border: none;
+    margin-right: 35px;
+}
+
+.second:hover {
+    background-color: #1f2685;
+}
