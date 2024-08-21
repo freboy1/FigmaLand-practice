@@ -29,12 +29,16 @@ body {
     font-size: 16px;
 }
 
-.header_text {
-    margin-top: 85px;
+.header_text,
+.feature_text {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.header_text {
+    margin-top: 85px;
 }
 
 .main_text {
@@ -64,4 +68,41 @@ body {
     margin-top: 35px;
     display: flex;
     justify-content: center;
+}
+
+.feature_text {
+    margin-top: 162px;
+}
+
+.feature_frame {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 245px;
+}
+
+.feature_rows {
+    flex-direction: column;
+    margin-left: 27px;
+    justify-content: center;
+}
+
+.feature_headline {
+    display: flex;
+    
+}
+
+.feature_head {
+    color: white;
+    font-size: 20px;
+    font-family: RobotoM;
+    padding: 10px;
+}
+
+.feature_desc {
+    font-size: 16px;
+    color: white;
+    font-family: RobotoM;
+    width: 38%;
+    padding: 10px;
+    margin-bottom: 35px;
 }
