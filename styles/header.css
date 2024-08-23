@@ -30,11 +30,14 @@ body {
 }
 
 .header_text,
-.feature_text {
+.feature_text,
+.content_text {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    color: white;
+
 }
 
 .header_text {
@@ -105,4 +108,69 @@ body {
     width: 38%;
     padding: 10px;
     margin-bottom: 35px;
+}
+
+.content_text {
+    font-size: 52px;
+    font-family: RobotoB;
+    margin-top: 221px;
+}
+
+.content_desc {
+    display: flex;
+    width: 43%;     
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'RobotoM', sans-serif;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.content_cards {
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.first_card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    width: 476px;
+    height: 624.52px;
+}
+
+.card_head {
+    font-size: 20px;
+    font-family: RobotoM;
+    padding-top: 50px;
+}
+
+.card_desc {
+    font-family: RobotoT;
+    margin-top: 20px;
+    width: 45%;
+    text-align: center;
+}
+
+.card_button {
+    margin-top: 57px;
+    margin-left: 50px;
+    margin-bottom: 57px;
+}
+
+.card_img {
+    margin-top: 57px;
+}
+
+.content_first_card {
+    margin-right: 33px;
+}
+.card_button_second {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
 }
