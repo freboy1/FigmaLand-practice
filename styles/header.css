@@ -218,3 +218,40 @@ body {
     margin: auto;    
     margin-top: 44px;
 }
+
+.partner_title {
+    font-size: 52px;
+    font-family: RobotoB;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 210px;   
+}
+
+.partner_desc {
+    font-size: 20px;
+    font-family: RobotoT;
+    color: white;
+    justify-content: center;
+    display: flex;
+    width: 32%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.partner_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.partner_img img {
+    margin-right: 74px;
+}
+
+.partner_button {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
