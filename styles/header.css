@@ -174,3 +174,47 @@ body {
     margin-left: 50px;
     margin-bottom: 30px;
 }
+
+.gallery_title {
+    font-size: 52px;
+    font-family: RobotoB;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 210px;
+}
+
+.gallery_desc {
+    font-size: 20px;
+    font-family: RobotoT;
+    color: white;
+    justify-content: center;
+    display: flex;
+    width: 32%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.gallery_first_row,
+.gallery_second_row {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.gallery_first_row img {
+    margin-right: 33px;
+    border-radius: 10px;
+}
+
+.gallery_second_row img {
+    margin-right: 33px;
+    border-radius: 10px;
+}
+
+.gallery_button {
+    display: block;
+    margin: auto;    
+    margin-top: 44px;
+}
