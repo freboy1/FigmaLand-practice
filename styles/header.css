@@ -258,25 +258,49 @@ body {
 
 .testimonial {
     height: 652px;
-    width: 883px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     margin: auto;
+    align-items: center;
+    align-content: center;
     margin-top: 60px;
 }
 
 .testimonial_card {
+    width: 430px;
     border: 1px solid white;
     border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 23px;
 }
 
 .testimonial_client {
     display: flex;
+    margin-top: 40px;
+}
+
+.testimonial_name {
+    color: white;
+    font-family: RobotoL;
+}
+.testimonial_info {
+    display: flex;
+    flex-direction: column;
+}
+.testimonial_job {
+    color: white;
+    font-family: RobotoL;
 }
 
 .testimonial_client img {
     margin-right: 23px;
     margin-left: 40px;
+}
+
+.testimonial_desc {
+    color: white;
+    font-family: RobotoT;
 }
 
 .footer {
